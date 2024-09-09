@@ -6,7 +6,7 @@ hero:
   name: "LofiSu's Tech Blog"
   text: "Front-end Developer"
   tagline: "🚀Hi, I'm Sue. You can call me Su. A software engineer. A lifelong learner. A dreamer."
-   image:
+  image:
     src: /cat.png
     alt: VitePress
   actions:
