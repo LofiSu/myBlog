@@ -18,7 +18,8 @@ aside: false
 
 - Apache Open Source Contributor in Apache Fury. [Fury official website builder](https://fury.apache.org/)
 - Tencent Rhino Bird Open Source Contributor in Tencent Omi.
-- Alibaba Open Source Contributor in Alibaba Cloud( Higress --- OpenYurt --- Spring Cloud Alibaba).
+- Alibaba Open Source Contributor in Alibaba Cloud
+( [Higress](https://higress.cn/) --- [OpenYurt](https://openyurt.io/) --- [Spring Cloud Alibaba](https://sca.aliyun.com/)).
 
 ## 🏆 Awards
 
