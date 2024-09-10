@@ -92,5 +92,13 @@ export const friendsInfo: Friend[] = [
     tag: "南京邮电大学",
     color: "orange",
   },
+   {
+    avatar: "https://avatars.githubusercontent.com/u/122970069?v=4",
+    name: "Fanceir Fan Xu",
+    title: "I'm a Computer Science and Technology student passionate about frontend development, currently diving deep into learning React.！✨",
+    link: "https://github.com/Fanceir",
+    tag: "江南大学",
+    color: "orange",
+  },
  
 ];
