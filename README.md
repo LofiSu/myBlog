@@ -22,6 +22,6 @@
 - GitHub: [LofiSu](https://github.com/LofiSu)
 - 博客地址: [酥酥的技术博客](www.lofisu.chat/)
 
-Learning is a lifelong journey.
+> # Learning is a lifelong journey.
 
 感谢您的访问，祝您在这里度过愉快的时光，并从中获得启发和成长！
