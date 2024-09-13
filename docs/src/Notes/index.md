@@ -15,7 +15,7 @@ types:
     desc: "interview experiences"
     link: "/Notes/Interviews/"
     icon: "🏃"
-# flow: true
+    # flow: true
 ---
 
 <script setup>
