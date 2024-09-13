@@ -107,6 +107,13 @@ export const friendsInfo: Friend[] = [
     link: "https://github.com/pepedd864",
     tag: "江西财经大学",
     color: "sky",
+  },
+  {
+    avatar: "https://avatars.githubusercontent.com/u/118599811?v=4",
+    name: "ha9",
+    title: "✨",
+    link: "https://github.com/James-ha9",
+    tag: "江苏科技大学",
+    color: "white"
   }
- 
 ];
