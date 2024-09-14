@@ -7,7 +7,7 @@ hero:
   text: "Front-end Developer"
   tagline: "🚀Hi, I'm Sue. You can call me Su. A software engineer. A lifelong learner. A dreamer."
   image:
-    src: /cat.png
+    src: /angry.gif
     alt: VitePress
   actions:
     - theme: brand
