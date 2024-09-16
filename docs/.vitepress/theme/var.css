@@ -9,6 +9,9 @@
   --vp-button-brand-bg: rgb(56, 189, 248);
   --vp-button-brand-hover-bg: rgb(14, 165, 233);
 }
+img {
+    border-radius: 50%;
+}
 .logo {
   border-radius: 50%;
 }
