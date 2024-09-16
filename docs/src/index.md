@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Knowledge Base
-      link: /Notes
+      link: /Notes/
     - theme: alt
       text: Interview
       link: /Notes/Interviews/index
