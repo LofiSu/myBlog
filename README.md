@@ -20,7 +20,7 @@
 ## 联系方式
 
 - GitHub: [LofiSu](https://github.com/LofiSu)
-- 博客地址: [酥酥的技术博客](www.lofisu.chat/)
+- 博客地址: [酥酥的技术博客](https://www.lofisu.chat/)
 
 > # Learning is a lifelong journey.
 
