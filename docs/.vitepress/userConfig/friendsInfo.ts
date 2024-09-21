@@ -112,7 +112,7 @@ export const friendsInfo: Friend[] = [
     avatar: "https://avatars.githubusercontent.com/u/118599811?v=4",
     name: "ha9",
     title: "✨",
-    link: "https://github.com/James-ha9",
+    link: "https://github.com/Khaoden",
     tag: "江苏科技大学",
     color: "white"
   }
