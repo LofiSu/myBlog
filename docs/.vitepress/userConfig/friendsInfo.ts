@@ -115,5 +115,13 @@ export const friendsInfo: Friend[] = [
     link: "https://github.com/Khaoden",
     tag: "江苏科技大学",
     color: "white"
+  },
+  {
+    avatar: "https://avatars.githubusercontent.com/u/46275354?v=4",
+    name: "苏向夜",
+    title: "The information was blocked👻",
+    link: "https://github.com/fu050409",
+    tag: "Southwest Petroleum University",
+    color: "sky"
   }
 ];
