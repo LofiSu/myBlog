@@ -123,5 +123,13 @@ export const friendsInfo: Friend[] = [
     link: "https://github.com/fu050409",
     tag: "Southwest Petroleum University",
     color: "sky"
-  }
+  },
+   {
+    avatar: "https://avatars.githubusercontent.com/u/52227746?s=400&u=785c2e323003c6873019faa692c935d55ae8aec0&v=4",
+    name: "大专哥",
+    title: "I hope everyone's dreams come true",
+    link: "https://sk-luffa.github.io/note_docs/",
+    tag: "大专",
+    color: "magenta",
+  },
 ];
