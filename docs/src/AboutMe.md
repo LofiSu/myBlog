@@ -4,7 +4,9 @@ aside: false
 
 # ✨ Coding with dream
 
-🌱Hello, this is SuSu 😊 Nice to meet you~
+🌱 Hello, this is SuSu 😊 Nice to meet you~
+  
+🌱 1.26.2006 born in Chengdu.
 
 💡 I am a software engineering student.
 
