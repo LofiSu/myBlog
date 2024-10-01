@@ -132,4 +132,12 @@ export const friendsInfo: Friend[] = [
     tag: "大专",
     color: "magenta",
   },
+  {
+    avatar: "https://avatars.githubusercontent.com/u/113702528?v=4",
+    name: "ice_dk",
+    title: "🎈我们都会成为很棒的小孩!",
+    link: "https://github.com/CCCdk",
+    tag: "广东金融学院",
+    color: "green",
+  },
 ];
