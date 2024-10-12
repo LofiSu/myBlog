@@ -59,7 +59,7 @@ const sidebarData = theme.value.sidebar?.[pathname];
 const categories =
   types || sidebarData?.items.map((item: any) => ({ name: item.text, link: item.link }));
 
-// // 根据 url 获取推荐阅读文章信息
+// 根据 url 获取推荐阅读文章信息
 // const featuresPost = features.map((url: string) =>
 //   posts.find((post) => post.url === url)
 // );

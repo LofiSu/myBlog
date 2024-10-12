@@ -20,7 +20,9 @@
     }
   },
   "dependencies": {
+    "@remixicon/vue": "^4.3.0",
     "dayjs": "^1.11.9",
-    "gray-matter": "^4.0.3"
+    "gray-matter": "^4.0.3",
+    "vue3-lottie": "^3.3.1"
   }
 }
