@@ -55,7 +55,8 @@
                 <span class="font-bold text-sky-500">a conversation</span> and a community.
               </h1>
               <h1 class="text-2xl leading-9 md:text-3xl">
-                <span class="inline-block font-bold text-teal-400 md:hidden">Blogs are used to record study and life.&nbsp;
+                <span class="inline-block font-bold text-teal-400 md:hidden">Blogs are used to record study and
+                  life.&nbsp;
                 </span>
                 <span class="inline-block lg:hidden">Is Everywhere</span>
               </h1>
@@ -147,68 +148,33 @@
         <!-- 荣誉 -->
         <div
           class="bg-stripe w-full md:w-[50%] bg-slate-50 border dark:bg-slate-800 dark:border-slate-900 p-4 rounded-xl">
-          <p class="text-[12px]">荣誉墙</p>
+          <p class="text-[12px]">🏆 Awards</p>
           <h1 class="mt-2 text-4xl font-bold">追风赶月</h1>
           <div class="mt-4 md:text-base lg:text-xl">
-            <p class="py-1">🏅 "创新创意创业"挑战赛省一等奖</p>
-            <p class="py-1">🥉 蓝桥杯 Web 开发组国家三等奖</p>
-            <p class="py-1">🥉 字节跳动前端青训大项目三等奖</p>
+            <p class="py-1">🏅 [My Honors and
+              Awards](https://github.com/LofiSu/LofiSu/blob/main/My%20Honors%20and%20Awards.md)</p>
+            <p class="py-1"> 🌟Apache Open Source Contributor in Apache Fury. Fury official website builder</p>
+            <p class="py-1"> Tencent Rhino Bird Open Source Contributor in Tencent Omi.</p>
+            <p class="py-1"> 🏆Tencent Rhino Bird Open Source Practical Award</p>
+            <p class="py-1"> Alibaba Open Source Contributor in Alibaba Cloud ( Higress --- OpenYurt ).</p>
+            <p class="py-1"> 🏅Champion of the Alibaba Cloud Tianchi 2024 Cloud Native Programming Challenge</p>
           </div>
         </div>
       </div>
-      <!-- 音乐/游戏 -->
+      <!-- 音乐 -->
       <div class="flex flex-col justify-between w-full gap-5 mt-4 md:gap-0 md:flex-row">
         <!-- 音乐 -->
         <div class="w-full md:w-[39%] rounded-xl min-h-[13rem] h-52 md:h-auto relative overflow-hidden sm:h-auto">
           <div class="absolute w-full h-full bg-center bg-no-repeat bg-cover music-bg"></div>
           <div class="relative z-10 p-4">
-            <p class="text-[12px] text-slate-200">音乐喜好</p>
-            <h1 class="mt-1.5 text-4xl font-bold text-white">古典、</h1>
-            <h1 class="mt-1.5 text-4xl font-bold text-white">欧美流行、</h1>
-            <h1 class="mt-1.5 text-4xl font-bold text-white">轻音乐</h1>
-            <p class="text-sm text-right text-slate-100">《Love Stroy》</p>
-          </div>
-        </div>
-        <!-- 游戏 -->
-        <div class="relative w-full md:min-h-[13rem] h-52 md:h-auto md:w-[59%] overflow-hidden rounded-xl">
-          <div class="absolute w-full h-full bg-center bg-no-repeat bg-cover game-bg"></div>
-          <div class="relative z-10 flex flex-col justify-between h-full p-4">
-            <p class="text-[12px] text-slate-50">电子竞技</p>
-            <h1 class="flex-1 mt-2 text-4xl font-bold text-white">赛博种田 / FPS</h1>
-            <p class="self-end mt-2 text-sm text-right text-slate-100">
-              守望先锋 / FarmTogether
-            </p>
+            <p class="text-[12px] text-slate-200">🎵 Music</p>
+            <h1 class="mt-1.5 text-4xl font-bold text-white">Future Bass</h1>
+            <h1 class="mt-1.5 text-4xl font-bold text-white">Pop</h1>
+            <h1 class="mt-1.5 text-4xl font-bold text-white">Light Music</h1>
           </div>
         </div>
       </div>
 
-      <!-- 运动/电影 -->
-      <div class="flex flex-col justify-between w-full gap-5 mt-4 md:gap-0 md:flex-row">
-        <!-- 电影 -->
-        <div class="relative w-full md:min-h-[18rem] h-72 overflow-hidden md:w-[58%] rounded-xl">
-          <div class="absolute w-full bg-center bg-no-repeat bg-cover h-72 movie-bg"></div>
-          <div class="relative z-10 flex flex-col justify-between h-full p-4">
-            <p class="text-[12px] text-slate-50">兴趣爱好</p>
-            <h1 class="flex-1 mt-2 text-4xl font-bold text-white">
-              科幻 / <br />动漫影视剧
-            </h1>
-            <p class="self-end mt-2 text-sm text-right text-slate-100">
-              “不作恶,不快活！” ——《坏蛋联盟》
-            </p>
-          </div>
-        </div>
-        <!-- 运动 -->
-        <div class="relative w-full md:min-h-[18rem] h-72 overflow-hidden md:w-[40%] rounded-xl">
-          <div class="absolute w-full bg-center bg-no-repeat bg-cover h-72 sport-bg"></div>
-          <div class="relative flex flex-col justify-between h-full p-4">
-            <p class="text-[12px] text-slate-50">体育运动</p>
-            <h1 class="flex-1 mt-2 text-4xl font-bold text-white">足球</h1>
-            <p class="self-end mt-2 text-sm text-right text-slate-100">
-              欢迎来到梅西走廊！
-            </p>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </template>
