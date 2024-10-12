@@ -19,4 +19,13 @@ export const projectsInfo: Project[] = [
     link: "https://github.com/LofiSu/tick-clock",
     tag: "TypeScript React-Native",
   },
+    {
+    banner: "../views/img/2.jpg", 
+    title: "KawaResume",
+    description:
+      "A simple and beautiful resume template.  KawaResume It is a simple and beautiful resume template supports web. ",
+    link: "https://github.com/LofiSu/kawa-resume",
+    tag: "TailwindCSS React",
+  },
+
 ];
