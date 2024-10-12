@@ -211,7 +211,7 @@
         <ul>
           <li>Email: <a href="mailto:linsu269@gmail.com">linsu269@gmail.com</a></li>
           <li>GitHub: <a href="https://github.com/LofiSu">LofiSu</a></li>
-          <li><a href="https://juejin.cn/user/2351234356882624">MyJueJin</a></li>
+          <li><a href="https://juejin.cn/user/2351234356882624">我的掘金主页</a></li>
           <li>Bilibili: <a href="https://space.bilibili.com/489812144?spm_id_from=333.1007.0.0">空生酥</a></li>
         </ul>
       </div>
