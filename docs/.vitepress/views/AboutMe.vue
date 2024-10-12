@@ -174,6 +174,52 @@
           </div>
         </div>
       </div>
+      <!-- 🎯 Looking for Jobs -->
+      <div class="flex flex-col w-full mt-4">
+        <h2 class="text-2xl font-bold">🎯 Looking for Jobs</h2>
+        <ul>
+          <li>Work Experience: <a href="https://github.com/LofiSu/LofiSu/blob/main/My%20offer.md">myOffer</a></li>
+          <li>Internship:
+            <ul>
+              <li>
+                <a href="https://www.bilibili.com/">bilibili</a> -- OGV（Occupationally Generated Video）Technical
+                Department + Value-added Front-End Business Group `Front-End Engineer` --- `From 2024.8 to Now.`
+              </li>
+              <li>
+                <a href="https://www.meituan.com/">Meituan</a> -- Takeaway business unit Campus team --- `From 2024.1 to
+                2024.6.`
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <!-- 🪁 Interests -->
+      <div class="flex flex-col w-full mt-4">
+        <h2 class="text-2xl font-bold">🪁 Interests</h2>
+        <ul>
+          <li>🪄 Traveling</li>
+          <li>🎶 Producing Music 🎸 Sing 🎤 My Music: <a href="https://music.163.com/#/artist?id=33710680">网易云音乐主页</a>
+          </li>
+          <li>📸 Photography</li>
+        </ul>
+      </div>
+
+      <!-- 📫 How to reach me -->
+      <div class="flex flex-col w-full mt-4">
+        <h2 class="text-2xl font-bold">📫 How to reach me</h2>
+        <ul>
+          <li>Email: <a href="mailto:linsu269@gmail.com">linsu269@gmail.com</a></li>
+          <li>GitHub: <a href="https://github.com/LofiSu">LofiSu</a></li>
+          <li><a href="https://juejin.cn/user/2351234356882624">MyJueJin</a></li>
+          <li>Bilibili: <a href="https://space.bilibili.com/489812144?spm_id_from=333.1007.0.0">空生酥</a></li>
+        </ul>
+      </div>
+
+      <!-- 图片 -->
+      <div class="flex flex-col w-full mt-4">
+        <img src="../../src/public/hi.jpg" alt="hi" class="w-full rounded-lg" />
+      </div>
 
     </div>
   </div>
