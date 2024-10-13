@@ -13,7 +13,7 @@
         <!-- Right-tags -->
         <p style="top: 32%"
           class="tag-bounce hidden sm:block sm:left-[69%] md:left-[66%] lg:left-[63%] xl:left-[60%] absolute px-3 py-0.5 text-sm font-bold rounded-full shadow-[0px_0px_1px_1px#eee]">
-          🎵 独立音乐人 空生酥
+          🎵 网易云 空生酥
         </p>
         <p style="top: 50%"
           class="tag-bounce hidden sm:block sm:left-[69%] md:left-[66%] lg:left-[63%] xl:left-[60%] absolute px-3 py-0.5 text-sm font-bold rounded-full shadow-[0px_0px_1px_1px#eee]">
@@ -22,7 +22,7 @@
         <!-- Left-tags -->
         <p style="top: 32%"
           class="tag-bounce hidden sm:block sm:left-[8%] md:left-[13%] lg:left-[21%] xl:left-[27%] absolute px-3 py-0.5 text-sm font-bold rounded-full shadow-[0px_0px_1px_1px#eee]">
-          ☀️阳光开朗小女孩
+          🌟 独立音乐人
         </p>
         <p style="top: 50%"
           class="tag-bounce hidden sm:block sm:left-[8%] md:left-[13%] lg:left-[21%] xl:left-[27%] absolute px-3 py-0.5 text-sm font-bold rounded-full shadow-[0px_0px_1px_1px#eee]">
@@ -35,11 +35,13 @@
           <!-- 概述 -->
           <div
             class="dark:from-sky-700 dark:to-teal-600 dark:border-slate-900 w-full flex flex-col justify-center rounded-xl border py-4 px-8 text-white md:w-[59%] bg-gradient-to-r from-sky-400 to-teal-400">
-            <p class="text-lg text-slate-50">你好，我是酥酥，成都小女孩，很高兴认识你 👋</p>
+            <p class="text-lg text-slate-50">
+              你好，我是酥酥，来自成都，很高兴认识你 👋
+            </p>
             <h1 class="text-xl font-bold xl:text-3xl lg:break-normal lg:break-words">
               🌟 Dream to be a full-stack developer.
             </h1>
-            <p class="text-slate-100">前端开发 / 产品设计 / 音乐</p>
+            <p class="text-slate-100">前端开发 / 产品设计 / 音乐制作人</p>
           </div>
           <!-- 箴言 -->
           <div
@@ -52,7 +54,8 @@
                 <span class="hidden lg:inline-block">It's a voice, &nbsp;</span>
               </h1>
               <h1 class="font-serif text-3xl tracking-widest md:text-2xl lg:text-3xl">
-                <span class="font-bold text-sky-500">a conversation</span> and a community.
+                <span class="font-bold text-sky-500">a conversation</span> and a
+                community.
               </h1>
               <h1 class="text-2xl leading-9 md:text-3xl">
                 <span class="inline-block font-bold text-teal-400 md:hidden">Blogs are used to record study and
@@ -73,7 +76,7 @@
           <div class="mt-2">
             <h1 class="text-xl">😺Love coding and open source.</h1>
             <h1 class="text-xl">🎂2006.1.26 born in Chengdu.</h1>
-            <h1 class="text-xl lg:text-xl md:text-base">🔥🌱 </h1>
+            <h1 class="text-xl lg:text-xl md:text-base">🔥🌱</h1>
             <p></p>
           </div>
         </div>
@@ -149,78 +152,110 @@
         <div
           class="bg-stripe w-full md:w-[50%] bg-slate-50 border dark:bg-slate-800 dark:border-slate-900 p-4 rounded-xl">
           <p class="text-[12px]">🏆 Awards</p>
-          <h1 class="mt-2 text-4xl font-bold">追风赶月</h1>
+          <h1 class="mt-2 text-4xl font-bold text-indigo-600">追风赶月</h1>
           <div class="mt-4 md:text-base lg:text-xl">
-            <p class="py-1">🏅 [My Honors and
-              Awards](https://github.com/LofiSu/LofiSu/blob/main/My%20Honors%20and%20Awards.md)</p>
-            <p class="py-1"> 🌟Apache Open Source Contributor in Apache Fury. Fury official website builder</p>
-            <p class="py-1"> Tencent Rhino Bird Open Source Contributor in Tencent Omi.</p>
-            <p class="py-1"> 🏆Tencent Rhino Bird Open Source Practical Award</p>
-            <p class="py-1"> Alibaba Open Source Contributor in Alibaba Cloud ( Higress --- OpenYurt ).</p>
-            <p class="py-1"> 🏅Champion of the Alibaba Cloud Tianchi 2024 Cloud Native Programming Challenge</p>
-          </div>
-        </div>
-      </div>
-      <!-- 音乐 -->
-      <div class="flex flex-col justify-between w-full gap-5 mt-4 md:gap-0 md:flex-row">
-        <!-- 音乐 -->
-        <div class="w-full md:w-[39%] rounded-xl min-h-[13rem] h-52 md:h-auto relative overflow-hidden sm:h-auto">
-          <div class="absolute w-full h-full bg-center bg-no-repeat bg-cover music-bg"></div>
-          <div class="relative z-10 p-4">
-            <p class="text-[12px] text-slate-200">🎵 Music</p>
-            <h1 class="mt-1.5 text-4xl font-bold text-white">Future Bass</h1>
-            <h1 class="mt-1.5 text-4xl font-bold text-white">Pop</h1>
-            <h1 class="mt-1.5 text-4xl font-bold text-white">Light Music</h1>
+            <p class="py-1 text-blue-500 font-semibold">
+              🏅
+              <a href="https://github.com/LofiSu/LofiSu/blob/main/My%20Honors%20and%20Awards.md" class="underline">My
+                Honors and Awards</a>
+            </p>
+            <p class="py-1 text-purple-500">
+              🌟
+              <span class="font-bold">Apache Open Source Contributor</span> in
+              Apache Fury.
+              <span class="italic">Fury official website builder</span>
+            </p>
+            <p class="py-1 text-green-500">
+              🌟
+              <span class="font-bold">Tencent Rhino Bird Open Source Contributor</span>
+              in Tencent Omi.
+            </p>
+            <p class="py-1 text-red-500">
+              🏆
+              <span class="font-bold">Tencent Rhino Bird Open Source Practical Award</span>
+            </p>
+            <p class="py-1 text-yellow-500">
+              🌟
+              <span class="font-bold">Alibaba Open Source Contributor</span> in
+              Alibaba Cloud ( Higress --- OpenYurt ).
+            </p>
+            <p class="py-1 text-orange-500">
+              🏅
+              <span class="font-bold">Champion of the Alibaba Cloud Tianchi 2024 Cloud Native
+                Programming Challenge</span>
+            </p>
           </div>
         </div>
       </div>
       <!-- 🎯 Looking for Jobs -->
-      <div class="flex flex-col w-full mt-4">
-        <h2 class="text-2xl font-bold">🎯 Looking for Jobs</h2>
-        <ul>
-          <li>Work Experience: <a href="https://github.com/LofiSu/LofiSu/blob/main/My%20offer.md">myOffer</a></li>
-          <li>Internship:
+      <div class="flex flex-col justify-between w-full gap-5 mt-4 md:gap-0 md:flex-row">
+        <!-- 工作机会 -->
+        <div
+          class="bg-stripe w-full md:w-[45%] bg-slate-50 border dark:bg-slate-800 dark:border-slate-900 p-4 rounded-xl">
+          <p class="text-[12px]">🎯 Looking for Jobs</p>
+          <h1 class="mt-2 text-4xl font-bold">工作机会</h1>
+          <div class="mt-4 md:text-base lg:text-xl">
+            <p class="py-1 text-blue-500">
+              💼 Work Experience:
+              <a href="https://github.com/LofiSu/LofiSu/blob/main/My%20offer.md" class="underline">myOffer</a>
+            </p>
+            <p class="py-1 text-green-500">🛠️ Internship:</p>
             <ul>
-              <li>
-                <a href="https://www.bilibili.com/">bilibili</a> -- OGV（Occupationally Generated Video）Technical
-                Department + Value-added Front-End Business Group `Front-End Engineer` --- `From 2024.8 to Now.`
+              <li class="py-1">
+                <a href="https://www.bilibili.com/" class="text-pink-500 text-2xl font-bold italic">Bilibili</a>
+                <span class="text-purple-500">-- OGV（Occupationally Generated Video）Technical Department
+                  + Value-added Front-End Business Group</span>
+                <span class="text-green-500 font-mono">`Front-End Engineer`</span>
+                <span class="text-red-500">--- `From 2024.8 to Now.`</span>
               </li>
-              <li>
-                <a href="https://www.meituan.com/">Meituan</a> -- Takeaway business unit Campus team --- `From 2024.1 to
-                2024.6.`
+              <li class="py-1">
+                <a href="https://www.meituan.com/" class="text-yellow-500 text-2xl font-bold italic">Meituan</a>
+                <span class="text-blue-500">-- Takeaway business unit Campus team</span>
+                <span class="text-green-500 font-mono">`From 2024.1 to 2024.6.`</span>
               </li>
             </ul>
-          </li>
-        </ul>
+          </div>
+        </div>
+        <!-- 🪁 Interests -->
+        <div
+          class="bg-stripe w-full md:w-[45%] bg-slate-50 border dark:bg-slate-800 dark:border-slate-900 p-4 rounded-xl">
+          <h2 class="text-2xl font-bold">🪁 Interests</h2>
+          <ul class="mt-2 md:text-base lg:text-xl">
+            <li>🪄 Traveling</li>
+            <li>🎶 Producing Music 🎸 Sing 🎤 My Music: <a href="https://music.163.com/#/artist?id=33710680"
+                class="underline">网易云音乐主页</a></li>
+            <li>📸 Photography</li>
+          </ul>
+          <!-- 📫 How to reach me -->
+          <h2 class="mt-4 text-2xl font-bold">📫 How to reach me</h2>
+          <ul class="mt-2 md:text-base lg:text-xl">
+            <li>Email: <a href="mailto:linsu269@gmail.com" class="underline text-blue-500">linsu269@gmail.com</a></li>
+            <li>GitHub: <a href="https://github.com/LofiSu" class="underline text-blue-500">LofiSu</a></li>
+            <li>掘金：<a href="https://juejin.cn/user/2351234356882624" class="underline text-blue-500">LofiSu</a></li>
+            <li>Bilibili: <a href="https://space.bilibili.com/489812144?spm_id_from=333.1007.0.0"
+                class="underline text-blue-500">空生酥</a></li>
+            <li>QQ群号: 953852964</li>
+          </ul>
+        </div>
       </div>
 
-      <!-- 🪁 Interests -->
-      <div class="flex flex-col w-full mt-4">
-        <h2 class="text-2xl font-bold">🪁 Interests</h2>
-        <ul>
-          <li>🪄 Traveling</li>
-          <li>🎶 Producing Music 🎸 Sing 🎤 My Music: <a href="https://music.163.com/#/artist?id=33710680">网易云音乐主页</a>
-          </li>
-          <li>📸 Photography</li>
-        </ul>
-      </div>
-
-      <!-- 📫 How to reach me -->
-      <div class="flex flex-col w-full mt-4">
-        <h2 class="text-2xl font-bold">📫 How to reach me</h2>
-        <ul>
-          <li>Email: <a href="mailto:linsu269@gmail.com">linsu269@gmail.com</a></li>
-          <li>GitHub: <a href="https://github.com/LofiSu">LofiSu</a></li>
-          <li><a href="https://juejin.cn/user/2351234356882624">我的掘金主页</a></li>
-          <li>Bilibili: <a href="https://space.bilibili.com/489812144?spm_id_from=333.1007.0.0">空生酥</a></li>
-        </ul>
+      <!-- 图片与音乐 -->
+      <div class="flex flex-col justify-between w-full gap-5 mt-4 md:gap-0 md:flex-row">
+        <!-- 图片 -->
+        <div class="w-full md:w-[45%] kawaii-bg bg-center bg-no-repeat bg-cover rounded-xl h-52 sm:h-auto"></div>
+        <div
+          class="bg-stripe w-full md:w-[50%] bg-slate-50 border dark:bg-slate-800 dark:border-slate-900 p-4 rounded-xl">
+          <p class="text-[12px]">🎵 Music</p>
+          <h1 class="mt-2 text-4xl font-bold text-indigo-600">Future Bass</h1>
+          <h1 class="mt-2 text-4xl font-bold text-indigo-600">Pop</h1>
+          <h1 class="mt-2 text-4xl font-bold text-indigo-600">Kawaii</h1>
+        </div>
       </div>
 
       <!-- 图片 -->
       <div class="flex flex-col w-full mt-4">
         <img src="../../src/public/hi.jpg" alt="hi" class="w-full rounded-lg" />
       </div>
-
     </div>
   </div>
 </template>
@@ -229,44 +264,45 @@
 
 <style scoped>
 .honer-bg {
-  background-image: url("./img/honer.jpg");
+  background-image: url("./img/bg.jpg");
 }
+
 .music-bg {
-  background-image: url("./img/music.jpg");
+  background-image: url("./img/bg.jpg");
   filter: brightness(0.6);
 }
-.game-bg {
-  background-image: url("./img/game.png");
-  filter: brightness(0.8);
+
+.kawaii-bg {
+  background-image: url("./img/kawaii.jpg");
 }
-.sport-bg {
-  background-image: url("./img/sport.jpg");
-  filter: brightness(0.6);
-}
-.movie-bg {
-  background-image: url("./img/movie.jpg");
-  filter: brightness(0.6);
-}
+
 .avatar-ping {
   animation: avatarPing 2s ease-in infinite;
 }
+
 @keyframes avatarPing {
+
   0%,
   100% {
     transform: translateX(-50%) translateY(-50%) scale(1.05);
   }
+
   50% {
     transform: translateX(-50%) translateY(-50%) scale(1.1);
   }
 }
+
 .tag-bounce {
   animation: tagBounce 1.5s ease-in infinite;
 }
+
 @keyframes tagBounce {
+
   0%,
   100% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-10%);
   }
@@ -275,10 +311,12 @@
 .icon-scroll {
   animation: iconScroll 20s linear infinite;
 }
+
 @keyframes iconScroll {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-50%);
   }
