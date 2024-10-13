@@ -12,6 +12,14 @@ interface Friend {
  * 在此处填写你的友情链接
  */
 export const friendsInfo: Friend[] = [
+    {
+    avatar: "https://avatars.githubusercontent.com/u/49082837?v=4",
+    name: "ZbWeR",
+    title: "Blog模板作者 🪁",
+    link: "https://blog.zbwer.work/",
+    tag: "电子科技大学👨‍🎓",
+    color: "indigo",
+  },
   {
     avatar: "https://avatars.githubusercontent.com/u/116318567?v=4",
     name: "Sherlock 霍尔木兹海峡长",
