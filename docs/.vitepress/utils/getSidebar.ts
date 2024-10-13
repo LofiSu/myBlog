@@ -40,16 +40,17 @@ function generate(notesRootPath: string, pagePath: string, prefix = "", depth = 
   const files = readdirSync(dir) || [];
   files.sort();
 
-  for (const file of files) {
+for (const file of files) {
     const filePath = path.join(dir, file);
     const stats = statSync(filePath);
     // 对于目录
     if (stats.isDirectory()) {
-      const childItems = generate(notesRootPath, file, relDir, depth + 1);
-      // 剔除不包含 md 文件的目录
-      if (childItems[0].items!.length === 0) continue;
+        const childItems = generate(notesRootPath, file, relDir, depth + 1);
+        // 确保 childItems[0] 和 childItems[0].items 存在
+        if (childItems[0] && childItems[0].items && childItems[0].items.length === 0) continue;
       sidebarSection.items!.push(...childItems);
     }
+
     // 对于文件
     else {
       const fileName = file.replace(/\.md$/, "");
