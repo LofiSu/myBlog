@@ -13,7 +13,7 @@
         <p class="mt-1 text-black/50">“🚀You can call me Su. A software engineer. A lifelong learner. A
           dreamer.”</p>
         <div class="mt-4 flex gap-4">
-          <div @click="router.go('/Notes/')"
+          <div @click="router.go('./AboutMe')"
             class="button relative w-fit cursor-pointer rounded-full bg-white active:scale-95">
             🎉 Welcome
           </div>
