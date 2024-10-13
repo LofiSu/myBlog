@@ -1,3 +1,10 @@
+---
+updateTime: "2024-10-13 13:30"
+desc: "Astro介绍"
+tags: "Astro"
+outline: deep
+---
+
 Astro 是一个用于构建现代 Web 应用的前端框架，专注于优化性能和开发者体验。它的主要特点是使用 "岛屿架构"（Islands Architecture），将页面内容分解成多个静态和动态部分，只有需要交互的部分会加载 JavaScript，其余部分可以完全静态渲染。这种方式可以显著减少 JavaScript 的负担，提升页面加载速度和用户体验。
 
 ### 主要特点：

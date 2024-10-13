@@ -1,3 +1,10 @@
+---
+updateTime: "2024-7-1 09:30"
+desc: "Vite相较于Webpack的优势"
+tags: "Vite"
+outline: deep
+---
+
 >webpack侧重兼容性，vite更侧重浏览器的开发体验
 >
 >当我们构建越来越大型的应用时，需要处理的Javascript代码量也呈指数级增长。

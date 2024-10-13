@@ -1,3 +1,10 @@
+---
+updateTime: "2024-7-1 09:30"
+desc: "React 0基础入门"
+tags: "React"
+outline: deep
+---
+
 # 引入：
 ## JSX语法：
 ==**JSX** 是 JavaScript 语法扩展，将Html标签引入 JavaScript。*在 React 中，渲染逻辑和标签共同存在于同一个地方——组件。*==

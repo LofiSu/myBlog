@@ -1,3 +1,10 @@
+---
+updateTime: "2024-10-13 13:30"
+desc: "Array splice"
+tags: "Array"
+outline: deep
+---
+
 # `splice` 方法的功能
 
 `splice` 方法的主要功能包括：

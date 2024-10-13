@@ -1,3 +1,10 @@
+---
+updateTime: "2024-7-1 09:30"
+desc: "ES6"
+tags: "Javascript"
+outline: deep
+---
+
 # let和const声明变量和常量只局限在作用域内使用
 ![[Pasted image 20240418171034.png]]
 

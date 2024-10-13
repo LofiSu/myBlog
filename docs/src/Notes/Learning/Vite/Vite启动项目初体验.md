@@ -1,3 +1,10 @@
+---
+updateTime: "2024-7-1 09:30"
+desc: "Vite启动项目初体验"
+tags: "Vite"
+outline: deep
+---
+
 >开箱即用（out of box）：你不需要做任何额外的配置就可以使用vite来帮你处理构建工作。
 
 ```counter.js

@@ -1,4 +1,10 @@
-# vite预加载
+---
+updateTime: "2024-7-1 09:30"
+desc: "Vite的依赖预构建"
+tags: "Vite"
+outline: deep
+---
+
 >在处理的过程中如果说看到了非绝对路径或者相对路径的引入，就会开启路径补全。
 >
 >**依赖预构建**：首先vite会先找到对应的依赖，然后调用esbuild（对js语法处理的一个库），将其他规范的代码转化成esmodule规范，然后放到当前目录下的node_modules/.vite/deps，同时对esmodule规范的各个模块进行统一集成。

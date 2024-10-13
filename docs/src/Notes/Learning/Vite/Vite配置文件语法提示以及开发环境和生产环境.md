@@ -1,3 +1,10 @@
+---
+updateTime: "2024-7-1 09:30"
+desc: "Vite配置文件的语法提示以及开发环境和生产环境"
+tags: "Vite"
+outline: deep
+---
+
 ### Vite配置文件的语法提示：
 ```vite.config.js
 //在依赖预处理中我们提到

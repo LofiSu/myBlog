@@ -1,3 +1,10 @@
+---
+updateTime: "2024-10-13 13:30"
+desc: "filter"
+tags: "Array"
+outline: deep
+---
+
 # `filter` 的实现原理
 
 `filter` 的实现实际上是一个遍历数组的过程，在遍历时根据条件判断是否将元素加入到新的数组中。

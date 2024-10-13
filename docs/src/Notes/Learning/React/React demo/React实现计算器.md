@@ -1,3 +1,10 @@
+---
+updateTime: "2024-7-1 09:30"
+desc: "React 实现计算器"
+tags: "React"
+outline: deep
+---
+
 要用 React 实现一个简单的计算器，可以按照以下步骤来进行。这个计算器可以处理基本的加减乘除操作。
 
 ### 1. **设置 React 项目**

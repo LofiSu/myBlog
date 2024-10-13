@@ -1,3 +1,10 @@
+---
+updateTime: "2024-7-1 09:30"
+desc: "GET和POST的区别"
+tags: "Javascript"
+outline: deep
+---
+
 关于 `GET` 和 `POST` 请求方法的区别，我们可以从几个方面来解释：
 ### 基本用途
 

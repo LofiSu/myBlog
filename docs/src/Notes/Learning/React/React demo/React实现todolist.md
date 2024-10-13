@@ -1,3 +1,10 @@
+---
+updateTime: "2024-7-1 09:30"
+desc: "React 实现todolist"
+tags: "React"
+outline: deep
+---
+
 要用 React 实现一个简单的 To-Do List 应用，你可以按照以下步骤进行。这个应用将包含添加、删除、标记任务完成等基本功能。
 
 ### 1. **设置 React 项目**

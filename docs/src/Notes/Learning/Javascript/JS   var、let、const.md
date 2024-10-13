@@ -1,3 +1,10 @@
+---
+updateTime: "2024-7-1 09:30"
+desc: "Var、Let、Const 的区别"
+tags: "Javascript"
+outline: deep
+---
+
 ### **Var、Let、Const 的区别**
 
 在 JavaScript 中，`var`、`let`、`const` 是三种声明变量的方式。它们之间的区别主要体现在以下几个方面：

@@ -1,3 +1,10 @@
+---
+updateTime: "2024-7-1 09:30"
+desc: "React 0基础入门"
+tags: "React"
+outline: deep
+---
+
 Hook（钩子）是一种允许程序在某些点插入自定义行为的机制。Hook的作用是为开发人员提供一种在不修改原始代码的情况下扩展或修改现有功能的方法。
 
 ![[Pasted image 20240625113123.png]]

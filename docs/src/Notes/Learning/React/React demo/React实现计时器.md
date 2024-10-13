@@ -1,3 +1,10 @@
+---
+updateTime: "2024-7-1 09:30"
+desc: "React 实现计时器"
+tags: "React"
+outline: deep
+---
+
 要在刷新页面后仍然保持计时器继续计时，你需要将计时器的状态持久化到浏览器的存储中，比如 `localStorage` 或 `sessionStorage`。下面是一个简单的示例，展示了如何使用 React 和 `localStorage` 实现一个计时器：
 
 ```jsx

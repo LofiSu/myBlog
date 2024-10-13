@@ -1,3 +1,10 @@
+---
+updateTime: "2024-10-13 13:30"
+desc: "AOS入门教程"
+tags: "AOS"
+outline: deep
+---
+
 ### 什么是 AOS (Animate On Scroll)？
 
 AOS 是一个轻量级的 JavaScript 库，它能够在用户滚动页面时，为页面上的元素添加各种动画效果。AOS 非常易于使用，可以通过简单的 HTML 属性来控制动画效果，而不需要编写复杂的 JavaScript 代码。

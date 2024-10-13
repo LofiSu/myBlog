@@ -1,3 +1,10 @@
+---
+updateTime: "2024-7-1 09:30"
+desc: "TypeScript 入门"
+tags: "TypeScript"
+outline: deep
+---
+
 ## 课题拆解
 
 这一课题可以拆解为「TypeScript 是什么，为什么需要它」，「TypeScript 提供了哪些能力」以及「如何基于这些能力进行可维护性编程」。

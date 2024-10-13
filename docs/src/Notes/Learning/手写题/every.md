@@ -1,3 +1,10 @@
+---
+updateTime: "2024-10-13 13:30"
+desc: "every"
+tags: "Array"
+outline: deep
+---
+
 `every` 是 JavaScript 中数组的一个方法，用于测试数组中的所有元素是否都满足给定的条件。与 `some` 方法不同，`every` 需要数组中的每个元素都满足测试条件，才能返回 `true`；否则，返回 `false`。
 
 ### `every` 方法的功能

@@ -1,3 +1,10 @@
+---
+updateTime: "2024-10-13 13:30"
+desc: "SSR入门"
+tags: "SSR"
+outline: deep
+---
+
 服务端渲染（Server-Side Rendering，简称 SSR）是一种网页渲染技术，指的是在服务器端生成 HTML 内容，然后将其发送到客户端（浏览器）进行展示。与客户端渲染（Client-Side Rendering，简称 CSR）不同，SSR 将渲染页面的工作从客户端转移到了服务器端。
 
 ### 工作原理
