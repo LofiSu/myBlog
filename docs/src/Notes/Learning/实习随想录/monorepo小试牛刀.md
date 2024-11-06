@@ -187,27 +187,23 @@ Lerna 会创建一个 `lerna.json` 文件，修改 `lerna.json` 以启用 **固�
 
 现在，你可以开始在 monorepo 中开发了。你可以在 `app` 和 `lib` 中进行开发，修改代码并在根目录下运行相关的命令来管理和构建项目。
 
-使用 `pnpm` 搭建一个 Monorepo 项目是一个非常有效的方案，尤其是在你有多个子项目（例如多个包或应用）并希望共享依赖项时。`pnpm` 提供了比 `npm` 和 `yarn` 更高效的方式来管理依赖和工作区。在本节中，我将详细介绍如何使用 `pnpm` 搭建 Monorepo 项目，并解释它的优点。
+### 用pnpm搭建monorepo项目
 
-> 以 `pnpm` 为例进行说明。
-### 1. 什么是 Monorepo？
-
-Monorepo（单一代码库）是一种将多个项目（通常是多个包、应用或服务）存储在同一个 Git 仓库中的方法。所有的代码和依赖项都集中在一个仓库中，便于协作和共享代码。常见的 Monorepo 项目结构有：
-
-- **单一包库**（比如一个 npm 包）
-- **多个包和应用**（例如前端和后端应用）
-
-### 2. 使用 `pnpm` 搭建 Monorepo 的步骤
-
-#### 步骤 1: 安装 `pnpm`
-首先，你需要全局安装 `pnpm`，它将帮助你管理项目依赖。
+首先，确保你已经安装了 `pnpm`。如果没有安装，可以使用以下命令进行安装：
 
 ```bash
 npm install -g pnpm
 ```
 
-#### 步骤 2: 初始化一个 Monorepo 项目
-你可以创建一个新的文件夹并初始化一个新的 Monorepo 项目：
+可以通过运行以下命令检查 `pnpm` 是否安装成功：
+
+```bash
+pnpm --version
+```
+
+### 2. 初始化项目
+
+在你希望创建 Monorepo 的文件夹中运行以下命令来初始化项目：
 
 ```bash
 mkdir my-monorepo
@@ -215,86 +211,233 @@ cd my-monorepo
 pnpm init
 ```
 
-这将创建一个新的 `package.json` 文件。
+这将会生成一个基本的 `package.json` 文件。接下来，我们将设置 Monorepo 所需的结构和配置。
 
-#### 步骤 3: 配置工作区
-在 `my-monorepo` 目录中创建一个 `pnpm-workspace.yaml` 文件，来配置 Monorepo 工作区：
+### 3. 配置 Monorepo 结构
 
-```yaml
-packages:
-  - 'packages/*'
-```
-
-这个配置表示你的 `packages` 文件夹下的所有子文件夹（例如 `packages/a`, `packages/b`）都将作为工作区的一部分。
-
-#### 步骤 4: 创建子包（子项目）
-在 `packages` 文件夹下创建一个子项目，例如 `packages/app1` 和 `packages/app2`：
+在 Monorepo 中，通常会有一个根目录和多个子项目目录。让我们在 `my-monorepo` 目录下创建一个基本的结构：
 
 ```bash
-mkdir -p packages/app1
-mkdir -p packages/app2
+my-monorepo/
+  ├── packages/
+  │    ├── app1/
+  │    └── app2/
+  ├── package.json
+  └── pnpm-workspace.yaml
 ```
 
-每个子项目都有自己的 `package.json` 文件。例如，在 `packages/app1/package.json` 中：
+- `packages/`：存放所有子项目（包）的目录。
+- `package.json`：根目录的配置文件。
+- `pnpm-workspace.yaml`：用于配置工作区，定义哪些子项目是工作区的一部分。
+
+#### 创建子项目（app1 和 app2）
+
+在 `packages/` 文件夹下创建两个子项目：
+
+```bash
+cd packages
+mkdir app1 app2
+```
+
+每个子项目都可以是一个简单的 Node.js 应用、React 应用、或其他前端、后端技术栈。你可以为每个子项目创建一个简单的 `package.json` 文件。
+
+例如，在 `app1/package.json` 中：
 
 ```json
 {
   "name": "app1",
   "version": "1.0.0",
-  "dependencies": {}
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
 ```
 
-你可以按照这种方式为每个子项目添加必要的依赖项。
-
-#### 步骤 5: 安装依赖
-在根目录下运行以下命令来安装所有依赖：
-
-```bash
-pnpm install
-```
-
-这会安装所有工作区中的依赖，并且通过 `pnpm` 的工作区机制，它会共享相同版本的依赖，避免重复安装。
-
-#### 步骤 6: 添加本地依赖
-你可以让子项目之间共享依赖。例如，假设 `app2` 依赖 `app1`，你可以在 `app2/package.json` 中这样引用：
+同样，在 `app2/package.json` 中：
 
 ```json
 {
   "name": "app2",
   "version": "1.0.0",
   "dependencies": {
-    "app1": "1.0.0"
+    "react": "^18.0.0"
   }
 }
 ```
 
-然后，你可以在 `app1` 中添加一些公共模块，`app2` 就可以引用这些模块了。`pnpm` 会自动管理这些依赖关系。
+### 4. 配置 `pnpm-workspace.yaml`
 
-#### 步骤 7: 使用 `pnpm` 运行工作区中的脚本
-你可以在工作区中执行脚本。例如，如果你在子项目中有一个构建脚本，你可以使用以下命令从根目录运行它：
+在 Monorepo 的根目录下创建一个 `pnpm-workspace.yaml` 文件，该文件用于告诉 `pnpm` 哪些文件夹应该包含在 Monorepo 工作区中。
 
-```bash
-pnpm run build --filter app1
+创建 `pnpm-workspace.yaml` 文件并添加以下内容：
+
+```yaml
+packages:
+  - 'packages/*'
 ```
 
-这会只运行 `app1` 的 `build` 脚本。
+这意味着所有位于 `packages/` 目录下的文件夹（如 `app1` 和 `app2`）都将是工作区的一部分。
 
-### 3. `pnpm` 的优点
+### 5. 安装依赖
 
-- **高效的依赖管理**：`pnpm` 采用了硬链接（symlink）机制来避免重复的依赖项存储，使得依赖项的存储更加高效。即使多个包依赖相同版本的依赖，`pnpm` 也只会在磁盘上存储一份该依赖。
-  
-- **快速的安装速度**：由于 `pnpm` 在工作区中使用了缓存和共享依赖，它的安装速度比 `npm` 和 `yarn` 更快，尤其是在大型 Monorepo 项目中，依赖项的安装和更新速度有显著提升。
+现在你已经配置好了项目结构，可以开始安装依赖了。在根目录下运行以下命令：
 
-- **自动化依赖版本管理**：`pnpm` 能确保所有工作区中的包使用相同版本的依赖，从而避免了版本冲突的问题。它会在安装时自动创建并共享符号链接来实现这一点。
+```bash
+pnpm install
+```
 
-- **灵活的脚本执行**：`pnpm` 支持从根目录运行整个 Monorepo 中的脚本，或者过滤到特定的包，这使得你可以更灵活地管理 Monorepo 中的构建、测试、部署等任务。
+这将会为 Monorepo 中的所有子项目安装依赖。`pnpm` 会自动识别 `pnpm-workspace.yaml` 文件中定义的工作区，安装所有的依赖，并将共享依赖的版本集中到根目录的 `node_modules` 中。
 
-- **跨项目共享**：多个子项目可以共享相同的依赖项，从而减少冗余的依赖安装，并提高磁盘利用率。
+### 6. 启动和运行子项目
 
-- **依赖分离**：`pnpm` 允许你在根项目和子项目之间分开安装依赖，避免了所有子项目都共享一个全局的 `node_modules` 目录。
+你可以为每个子项目添加一些脚本，像 `start` 或 `build`。例如，在 `app1/package.json` 中：
 
-- **兼容性**：`pnpm` 完全兼容 `npm` 和 `yarn`，你可以很方便地迁移现有的 `npm` 或 `yarn` 项目到 `pnpm`，并且无缝运行已有的 `npm` 脚本。
+```json
+{
+  "name": "app1",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app1.js"
+  }
+}
+```
+
+类似地，在 `app2/package.json` 中：
+
+```json
+{
+  "name": "app2",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "react-scripts start"
+  }
+}
+```
+
+在根目录下，你也可以定义一个可以同时启动所有子项目的脚本。编辑根目录下的 `package.json`，添加一个 `start` 脚本：
+
+```json
+{
+  "name": "my-monorepo",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "pnpm --filter app1 start && pnpm --filter app2 start"
+  }
+}
+```
+
+这样你可以通过以下命令启动所有子项目：
+
+```bash
+pnpm start
+```
+
+### 7. 使用 `pnpm` 的工作区特性
+
+#### 共享依赖
+
+在 Monorepo 中，如果你有多个子项目使用相同的依赖，`pnpm` 会通过工作区机制来确保依赖只会安装一次。例如，如果 `app1` 和 `app2` 都依赖于 `lodash`，`pnpm` 会在根目录共享 `lodash`。
+
+#### 局部依赖和版本管理
+
+如果你需要在子项目之间共享代码，可以将公共代码放在 `packages/` 下的一个公共包中。例如，可以创建一个 `utils` 包来存放共享的工具函数：
+
+```bash
+mkdir packages/utils
+```
+
+在 `utils/package.json` 中：
+
+```json
+{
+  "name": "utils",
+  "version": "1.0.0"
+}
+```
+
+然后，你可以在 `app1` 和 `app2` 中引用 `utils` 包：
+
+```bash
+pnpm add utils --workspace
+```
+
+这会将 `utils` 作为依赖添加到 `app1` 和 `app2` 中。
+
+#### 使用 `filter` 命令
+
+`pnpm` 提供了强大的过滤命令，可以针对某些包执行操作。例如，只有在 `app1` 上运行安装：
+
+```bash
+pnpm --filter app1 install
+```
+
+或者只运行 `app1` 的测试：
+
+```bash
+pnpm --filter app1 test
+```
+
+### 8. 配置 `tsconfig.json`（可选）
+
+如果你使用 TypeScript，可以在根目录配置一个 `tsconfig.json` 来管理所有子项目的 TypeScript 配置。首先，在根目录下创建 `tsconfig.json`：
+
+```json
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["packages/*/src"]
+    }
+  },
+  "include": [
+    "packages/**/*"
+  ]
+}
+```
+
+这将确保 TypeScript 能够识别所有子项目并正确编译。
+
+### 9. 使用 CI/CD 管理 Monorepo
+
+如果你使用持续集成/持续交付（CI/CD）工具，如 GitHub Actions、GitLab CI、Jenkins 等，可以配置 Monorepo 的构建和发布流程。例如，在 GitHub Actions 中，你可以使用 `pnpm` 来构建、测试和发布 Monorepo 项目：
+
+```yaml
+name: CI Pipeline
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+
+    - name: Set up pnpm
+      uses: pnpm/action-setup@v2
+      with:
+        version: 8.x
+
+    - name: Install dependencies
+      run: pnpm install
+
+    - name: Build projects
+      run: pnpm run build
+```
+
+### 10. 常见问题
+
+- **工作区依赖问题**：有时 `pnpm` 在安装时可能会因为网络问题或者权限问题导致安装失败。此时可以尝试清除缓存并重试：  
+  ```bash
+  pnpm store prune
+  pnpm install
+  ```
+
+- **升级 pnpm 版本**：如果想要升级 `pnpm`，可以使用以下命令：
+  ```bash
+  pnpm add -g pnpm
+  ```
 
 > 假设你要做一个项目，项目中有多个公共模块，分别为 `common`、`commonTypes` 和 `utils`，并且这些模块将被前端和后端共享，你可以按照以下步骤来组织 Monorepo 项目。
 
