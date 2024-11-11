@@ -206,7 +206,7 @@
                 <span class="text-purple-500">-- OGV（Occupationally Generated Video）Technical Department
                   + Value-added Front-End Business Group</span>
                 <span class="text-green-500 font-mono">`Front-End Engineer`</span>
-                <span class="text-red-500">--- `From 2024.8 to Now.`</span>
+                <span class="text-red-500">--- `From 2024.7 to Now.`</span>
               </li>
               <li class="py-1">
                 <a href="https://www.meituan.com/" class="text-yellow-500 text-2xl font-bold italic">Meituan</a>
@@ -229,7 +229,7 @@
           <!-- 📫 How to reach me -->
           <h2 class="mt-4 text-2xl font-bold">📫 How to reach me</h2>
           <ul class="mt-2 md:text-base lg:text-xl">
-            <li>Email: <a href="mailto:linsu269@gmail.com" class="underline text-blue-500">linsu269@gmail.com</a></li>
+            <li>Email: <a href="mailto:linsu269@gmail.com" class="underline text-blue-500">lofisuchat@gmail.com</a></li>
             <li>GitHub: <a href="https://github.com/LofiSu" class="underline text-blue-500">LofiSu</a></li>
             <li>掘金：<a href="https://juejin.cn/user/2351234356882624" class="underline text-blue-500">LofiSu</a></li>
             <li>Bilibili: <a href="https://space.bilibili.com/489812144?spm_id_from=333.1007.0.0"
