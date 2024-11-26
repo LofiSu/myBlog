@@ -41,7 +41,7 @@
             <h1 class="text-xl font-bold xl:text-3xl lg:break-normal lg:break-words">
               🌟 Dream to be a full-stack developer.
             </h1>
-            <p class="text-slate-100">前端开发 / 产品设计 / 音乐制作人</p>
+            <p class="text-slate-100">前端开发 / 产品设计 / 音乐制作人 / 虚拟主播 / up主</p>
           </div>
           <!-- 箴言 -->
           <div
