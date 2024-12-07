@@ -69,6 +69,14 @@ export const friendsInfo: Friend[] = [
     color: "indigo",
   },
   {
+    avatar: "https://avatars.githubusercontent.com/u/96854855?v=4",
+    name: "Winches",
+    title: "NextUI 核心成员，开源爱好者 🎃",
+    link: "https://awesome-15docs.netlify.app/",
+    tag: "广东海洋大学 打渔为生 🐟",
+    color: "indigo",
+  },
+  {
     avatar: "https://avatars.githubusercontent.com/u/65701285?v=4",
     name: "Lujie Ma ",
     title: "🥳XiaoLinZzz 👨‍💻",
