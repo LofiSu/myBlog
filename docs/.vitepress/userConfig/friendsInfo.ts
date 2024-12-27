@@ -12,7 +12,7 @@ interface Friend {
  * 在此处填写你的友情链接
  */
 export const friendsInfo: Friend[] = [
-    {
+  {
     avatar: "https://avatars.githubusercontent.com/u/49082837?v=4",
     name: "ZbWeR",
     title: "Blog模板作者 🪁",
@@ -28,7 +28,7 @@ export const friendsInfo: Friend[] = [
     tag: "哈尔滨工业大学（威海）",
     color: "indigo",
   },
-    {
+  {
     avatar: "https://avatars.githubusercontent.com/u/118501068?v=4",
     name: "阿普瑞斯   Apries",
     title: "所向云野 🪁",
@@ -108,15 +108,16 @@ export const friendsInfo: Friend[] = [
     tag: "南京邮电大学",
     color: "orange",
   },
-   {
+  {
     avatar: "https://avatars.githubusercontent.com/u/122970069?v=4",
     name: "Fanceir Fan Xu",
-    title: "I'm a Computer Science and Technology student passionate about frontend development, currently diving deep into learning React.！✨",
+    title:
+      "I'm a Computer Science and Technology student passionate about frontend development, currently diving deep into learning React.！✨",
     link: "https://github.com/Fanceir",
     tag: "江南大学",
     color: "orange",
   },
-    {
+  {
     avatar: "https://avatars.githubusercontent.com/u/63275695?v=4",
     name: "pepedd864",
     title: "pepedd864",
@@ -130,7 +131,7 @@ export const friendsInfo: Friend[] = [
     title: "✨",
     link: "https://github.com/Khaoden",
     tag: "江苏科技大学",
-    color: "white"
+    color: "white",
   },
   {
     avatar: "https://avatars.githubusercontent.com/u/46275354?v=4",
@@ -138,10 +139,11 @@ export const friendsInfo: Friend[] = [
     title: "The information was blocked👻",
     link: "https://github.com/fu050409",
     tag: "Southwest Petroleum University",
-    color: "sky"
+    color: "sky",
   },
-   {
-    avatar: "https://avatars.githubusercontent.com/u/52227746?s=400&u=785c2e323003c6873019faa692c935d55ae8aec0&v=4",
+  {
+    avatar:
+      "https://avatars.githubusercontent.com/u/52227746?s=400&u=785c2e323003c6873019faa692c935d55ae8aec0&v=4",
     name: "大专哥",
     title: "I hope everyone's dreams come true",
     link: "https://sk-luffa.github.io/note_docs/",
@@ -155,6 +157,22 @@ export const friendsInfo: Friend[] = [
     link: "https://github.com/CCCdk",
     tag: "广东金融学院",
     color: "green",
+  },
+  {
+    avatar: "https://nohup.life/image/avator.jpg",
+    name: "nohup",
+    title: "我是一阵自由的风。",
+    link: "https://nohup.life/",
+    tag: "我是一阵自由的风。",
+    color: "sky",
+  },
+  {
+    avatar: "https://avatars.githubusercontent.com/u/31147639?v=4",
+    name: "dc392",
+    title: "pursue truth🫠",
+    link: "https://personal-blog-fzfb.onrender.com/",
+    tag: "武汉大学",
+    color: "orange"
   },
   {
     avatar: "https://blog.xianfei.win/imgs/avatar2_hu71215836cfc1201dad43a2a602d405c9_1044873_300x0_resize_box_3.png",

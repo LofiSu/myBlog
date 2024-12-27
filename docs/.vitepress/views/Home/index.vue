@@ -2,9 +2,10 @@
   <div class="home flex h-screen w-screen items-center justify-center">
     <EmojiBackground />
     <div class=" -mt-10 sm:-mt-40 flex w-screen animate-scale-in-center flex-col px-4 sm:w-[626px]">
-      <Vue3Lottie :animationData="lottieData" class=" w-full sm:w-[626px]" />
+      <img src="../img/logo.jpg" class="block w-48 h-48 mx-auto rounded-full animate-bounce-border" />
       <div
-        class="mt-6 flex w-full flex-col items-center rounded-lg bg-white/85  py-6 text-zinc-800 shadow shadow-black/40 backdrop-blur-sm relative">
+        class="mt-6 flex w-full flex-col items-center rounded-lg bg-white/70 py-6 text-zinc-800 shadow shadow-black/40 backdrop-blur-sm relative"
+        data-aos="fade-in" data-aos-duration="1000">
         <div class="text-2xl font-bold sm:text-3xl">
           <span class="shake-hand inline-block">👋</span> Hi, I am
           <span class="bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent">LofiSu</span>.
@@ -33,9 +34,8 @@ import { onMounted, ref, onBeforeUnmount } from 'vue'
 import EmojiBackground from '../../components/EmojiBackground/index.vue'
 import { RiGithubLine } from '@remixicon/vue'
 import { useRouter } from 'vitepress'
-import { Vue3Lottie } from 'vue3-lottie'
-import lottieData from '../../assets/dora.json'
-
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 const returnToTopRef = ref<HTMLElement | null>(null)
 
 const router = useRouter()
@@ -46,6 +46,7 @@ const gotoGithub = () => {
 onMounted(() => {
   returnToTopRef.value = document.querySelector('.VPLocalNav.empty.fixed')
   if (returnToTopRef.value) returnToTopRef.value.style.zIndex = '-1000'
+  AOS.init()
 })
 
 onBeforeUnmount(() => {
@@ -56,6 +57,30 @@ onBeforeUnmount(() => {
 <style scoped>
 .home {
   --primary-color: #ff6086;
+}
+
+.animate-bounce-border {
+  position: relative;
+  animation: bounce 2s infinite;
+  border: 2px solid #93cde6;
+  /* 添加白色边框 */
+  border-radius: 50%;
+  /* 确保边框是圆形 */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  /* 添加动态效果 */
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+    /* 调整弹动幅度 */
+  }
 }
 
 .button-github {
@@ -226,19 +251,24 @@ onBeforeUnmount(() => {
 .shake-hand {
   animation: shake 4s ease-in-out both infinite;
 }
+
 @keyframes shake {
   60% {
     transform: rotate(0deg);
   }
+
   70% {
     transform: rotate(-10deg);
   }
+
   80% {
     transform: rotate(0deg);
   }
+
   90% {
     transform: rotate(10deg);
   }
+
   100% {
     transform: rotate(0deg);
   }
