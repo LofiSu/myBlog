@@ -166,4 +166,12 @@ export const friendsInfo: Friend[] = [
     tag: "我是一阵自由的风。",
     color: "sky",
   },
+  {
+    avatar: "https://avatars.githubusercontent.com/u/31147639?v=4",
+    name: "dc392",
+    title: "pursue truth🫠",
+    link: "https://personal-blog-fzfb.onrender.com/",
+    tag: "武汉大学",
+    color: "orange"
+  }
 ];
