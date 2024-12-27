@@ -167,6 +167,23 @@ export const friendsInfo: Friend[] = [
     color: "sky",
   },
   {
+    avatar: "https://avatars.githubusercontent.com/u/31147639?v=4",
+    name: "dc392",
+    title: "pursue truth🫠",
+    link: "https://personal-blog-fzfb.onrender.com/",
+    tag: "武汉大学",
+    color: "orange",
+  },
+  {
+    avatar:
+      "https://blog.xianfei.win/imgs/avatar2_hu71215836cfc1201dad43a2a602d405c9_1044873_300x0_resize_box_3.png",
+    name: "xianfei",
+    title: "欢迎访问Xianfei的博客！",
+    link: "https://blog.xianfei.win/",
+    tag: "HKUST",
+    color: "sky",
+  },
+  {
     avatar: "https://my.minecraft.kim/avatar.png",
     name: "HikariLan",
     title: "兰草凋荡，星辰璀璨",
