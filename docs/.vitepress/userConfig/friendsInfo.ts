@@ -166,4 +166,12 @@ export const friendsInfo: Friend[] = [
     tag: "我是一阵自由的风。",
     color: "sky",
   },
+  {
+    avatar: "https://my.minecraft.kim/avatar.png",
+    name: "HikariLan",
+    title: "兰草凋荡，星辰璀璨",
+    link: "https://my.minecraft.kim",
+    tag: "西安财经大学",
+    color: "orange",
+  },
 ];
