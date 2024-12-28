@@ -191,4 +191,12 @@ export const friendsInfo: Friend[] = [
     tag: "西安财经大学",
     color: "orange",
   },
+  {
+    avatar: "https://avatars.githubusercontent.com/u/36628162?v=4",
+    name: "Tony",
+    title: "Whatever it takes.😎",
+    link: "https://github.com/cheeseburgertony",
+    tag: "A front-end developer",
+    color: "sky",
+  },
 ];
