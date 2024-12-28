@@ -207,4 +207,12 @@ export const friendsInfo: Friend[] = [
     tag: "A front-end developer",
     color: "sky",
   },
+  {
+    avatar: "https://avatars.githubusercontent.com/u/153916948?v=4“,
+    name: "BirdyLu",
+    title: "Surpasses the reality",
+    link: "https://birdylu.github.io/",
+    tag: "Uni of Sydney",
+    color: "sky",
+  },
 ];
