@@ -215,4 +215,12 @@ export const friendsInfo: Friend[] = [
     tag: "Learning front-end",
     color: "sky",
   },
+  {
+    avatar: "https://avatars.githubusercontent.com/u/143786942?v=4",
+    name: "Bolaxious",
+    title: "🤗Blog of Bolaxious🤗",
+    link: "https://github.com/mengbooo",
+    tag: "华中科技大学",
+    color: "indigo",
+  },
 ];
