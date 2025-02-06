@@ -219,7 +219,7 @@ export const friendsInfo: Friend[] = [
     avatar: "https://avatars.githubusercontent.com/u/143786942?v=4",
     name: "Bolaxious",
     title: "🤗Blog of Bolaxious🤗",
-    link: "https://github.com/mengbooo",
+    link: "https://mengbooo.github.io/BemoDB",
     tag: "华中科技大学",
     color: "indigo",
   },
