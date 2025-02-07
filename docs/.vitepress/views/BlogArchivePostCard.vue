@@ -3,18 +3,13 @@
     @click="openLink(post.url)"
     class="relative py-4 mt-6 transition-all border rounded-lg cursor-pointer dark:border-transparent hover:border-indigo-800 break-inside-avoid-column bg-zinc-50/50 sm:pl-0 dark:bg-slate-800/80 first:mt-0 dark:hover:bg-sky-950/80 dark:hover:border-sky-300"
   >
-    <!-- <p
-      class="hidden pl-4 font-mono text-4xl sm:block text-sky-400/50 dark:text-slate-200/50"
-    >
-      {{ index < 10 ? "0" + index : index }}
-    </p> -->
     <div class="w-full px-5">
       <p class="text-sm text-zinc-400">{{ post.date.string }}</p>
       <h1
         :class="flow ? '' : 'lg:text-2xl'"
         class="my-2 text-xl font-bold leading-8 tracking-tight"
       >
-        {{ getTitle(post) }}
+        {{ getTruncatedTitle(getTitle(post)) }}
       </h1>
       <p
         class="flex-1 mt-2 leading-relaxed transition-all duration-300 text-black/60 dark:text-slate-500 dark:group-hover:text-white/80 group-hover:text-black"
@@ -53,7 +48,6 @@ const getTitle = (post: Post): string => {
   const { url } = post;
   const matches = url.match(/.*\/(.*.html)/);
   let fileName = matches && matches[1].replace(".html", "");
-  // 如果匹配成功，返回匹配的部分作为标题，否则返回一个默认标题
   if (fileName) return fileName2Title[fileName] || fileName;
   return "Error Title";
 };
@@ -66,4 +60,12 @@ const getTags = (post: Post) => {
 
 // 打开文章链接
 const openLink = (link: string) => router.go(link);
+
+// 获取限制长度的标题
+const getTruncatedTitle = (title: string): string => {
+  if (title.length > 20) {
+    return title.substring(0, 20) + "...";
+  }
+  return title;
+};
 </script>
