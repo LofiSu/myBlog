@@ -4,6 +4,8 @@ desc: "💡GraphRAG解读：让LLM学会结构化思考"
 tags: "AI"
 outline: deep
 ---
+
+
 # 💡 GraphRAG解读：让LLM学会结构化思考
 
 本篇文章只是对 GraphRAG 框架进行简单解读，标题有一点夸张。其实，RAG 加上 Graph 结构化知识图谱是否是革命性创新还有待商榷。文章中很多内容是摘抄的，原文链接在底部提供🔗。
