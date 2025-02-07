@@ -45,7 +45,6 @@ outline: deep
 
 尽管比 DeepSeek-R1 小得多，但蒸馏模型在各种基准测试中都表现出色，通常可以匹敌甚至超越更大模型的能力。如下图所示：
 
-[图片]
 
 Deepseek 提炼模型基准测试 [source](https://arxiv.org/html/2501.12948v1)
 
@@ -252,12 +251,11 @@ print(output[0]['generated_text'])
 - **蒸馏前的推理**  
 响应简单明了。它直接提供了计算答案的步骤。
 
-![蒸馏前的 Phi 推理](image_link)
 
 - **蒸馏后的推理**  
 蒸馏后的响应引入了一种更详细和结构化的方法，包括一个明确的“思考”部分，概述了思维过程和推理，这对于为复杂问题生成准确的响应非常有帮助。
 
-![蒸馏后的 Phi 推理](image_link)
+
 
 最终，将蒸馏后的模型权重推送到 huggingface hub（repo_id：GPD1/DeepSeek-R1-Distill-phi-3-mini-4k-lorar8-alpha16–50000samples）。
 
