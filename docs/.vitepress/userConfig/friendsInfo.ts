@@ -184,7 +184,7 @@ export const friendsInfo: Friend[] = [
     color: "sky",
   },
   {
-    avatar: "https://my.minecraft.kim/avatar.png",
+    avatar: "https://assets.hikarilan.life/avatar.png",
     name: "HikariLan",
     title: "兰草凋荡，星辰璀璨",
     link: "https://my.minecraft.kim",
