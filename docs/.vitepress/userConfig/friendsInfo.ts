@@ -215,4 +215,12 @@ export const friendsInfo: Friend[] = [
     tag: "Learning front-end",
     color: "sky",
   },
+  {
+    avatar: "https://avatars.githubusercontent.com/u/144657059?v=4",
+    name: "WhythZ",
+    title: "华南理工大学",
+    link: "https://whythz.github.io",
+    tag: "喜欢游戏和游开",
+    color: "pink",
+  },
 ];
