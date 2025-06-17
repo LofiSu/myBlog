@@ -223,4 +223,12 @@ export const friendsInfo: Friend[] = [
     tag: "喜欢游戏和游开",
     color: "pink",
   },
+    {
+    avatar: "https://k0001y.com/.blog/img/bird.png",
+    name: "K0001y",
+    title: "time to cast",
+    link: "https://k0001y.com/.blog/index.html",
+    tag: "DLUT,大雪深埋",
+    color: "sky",
+  },
 ];
