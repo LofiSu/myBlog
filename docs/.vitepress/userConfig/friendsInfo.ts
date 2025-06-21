@@ -231,4 +231,12 @@ export const friendsInfo: Friend[] = [
     tag: "DLUT,大雪深埋",
     color: "sky",
   },
+  {
+    avatar: "https://avatars.githubusercontent.com/u/118345785?v=4",
+    name: "yangfa-zhang",
+    title: "算法实习生",
+    link: "https://github.com/yangfa-zhang",
+    tag: "华南理工大学",
+    color: "sky",
+  }
 ];
