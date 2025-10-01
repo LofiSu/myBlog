@@ -231,4 +231,12 @@ export const friendsInfo: Friend[] = [
     tag: "DLUT,大雪深埋",
     color: "sky",
   },
+  {
+    avatar: "https://avatars.githubusercontent.com/u/176682663?s=400&u=ff559237fc5f45cf76a0cc5f1068f813a8e28121&v=4",
+    name: "MU-ty",
+    title: "GUET",
+    link: "https://github.com/MU-ty",
+    tag: "Learning agent",
+    color: "sky",
+  },
 ];
