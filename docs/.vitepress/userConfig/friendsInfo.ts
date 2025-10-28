@@ -231,4 +231,12 @@ export const friendsInfo: Friend[] = [
     tag: "DLUT,大雪深埋",
     color: "sky",
   },
+  {
+    avatar: "https://rustlove.blog/files/photo/rustlove.webp",
+    name: "PK",
+    title: "Free will never fades.",
+    link: "https://rustlove.blog",
+    tag: "数字游民",
+    color: "red",
+  },
 ];
