@@ -231,4 +231,12 @@ export const friendsInfo: Friend[] = [
     tag: "DLUT,大雪深埋",
     color: "sky",
   },
+  {
+    avatar: "https://avatars.githubusercontent.com/u/169412732?s=400&u=933febfca67855e05fb5cd91e5784c6d7cede2ed&v=4",
+    name: "RenaYin",
+    title: "自由灵魂✨",
+    link: "https://github.com/Rena-Yin",
+    tag: "华盛顿大学",
+    color: "azure",
+  },
 ];
